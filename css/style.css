@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background: url("../images/bg.jpg");
+}
+
+
+header {
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+/* 自定义字体，阿里图标 */
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size: 1.5rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+
+
+header h3 {
+  font-size: 0.5rem;
+  line-height: 1.3rem;
+}
+
+
+header p {
+  font-size: 0.3rem;
+}
+
+
+.singer {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid #fff;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.singer div {
+  width: 7.6rem;
+  height: 7.6rem; 
+  margin: .2rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .5);
+}
+
+.rotate {
+  animation: rot 10s linear infinite;
+}
+
+@keyframes rot {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.singer div  img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 0.3rem;
+}
+
+
+.progress {
+  width: 9rem;
+  height: 0.1rem;
+  background: #c03;
+  margin: 1rem auto;
+}
+
+
+.bg {
+  width: 0;
+  height: 0.1rem;
+  background: #0f9
+}
+
+
+.bar {
+  width: .2rem;
+  height: .2rem;
+  background: blue;
+  border-radius: 50%;
+  transform: translate(0rem, -.15rem); /* 代替绝对定位 */
+}
+
+
+.btn {
+  width: 8rem;
+  margin: auto;
+}
+
+.btn div {
+  float: left;
+  margin: .5rem;
+}
+
+
+.pause {
+  display: none;
+}

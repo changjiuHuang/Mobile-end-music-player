@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-en">
+  <head>
+    <meta charset="utf-8">
+    <title>迷你音乐播放器</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h3 class="musicTitle"></h3>
+    </header>
+    <section class="singer">
+      <div>
+        <img src="images/tx.jpg">
+      </div>
+    </section>
+    <!-- 进度条部分 -->
+    <section class="progress">
+      <div class="bg"></div>
+      <div class="bar"></div>
+    </section>
+    <!-- 按钮部分 -->
+    <section class="btn">
+      <div class="prev iconfont">&#xe6de;</div>
+      <div class="play iconfont">&#xe60d;</div>
+      <div class="pause iconfont">&#xe6ad;</div>
+      <div class="next iconfont">&#xe6dd;</div>
+    </section>
+    <!-- 音频播放部分 -->
+    <audio src="mp3/" id="myMusic"></audio>
+  
+  <script src="js/js.js"></script>
+  </body>
+</html>
